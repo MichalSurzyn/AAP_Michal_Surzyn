@@ -1,0 +1,12 @@
+Opis:
+Aplikacja w Jupyter Notebook, która pobiera historyczne dane giełdowe, analizuje je pod kątem statystycznym i próbuje przewidzieć cenę na kolejny dzień przy użyciu modelu uczenia maszynowego.
+
+Główne funkcje:
+
+Pobieranie danych: Automatyczne pobranie kursów (np. BTC/USD) z ostatniego roku (biblioteka yfinance).
+
+Analiza techniczna: Obliczanie średnich kroczących (SMA 20 i SMA 50) oraz wizualizacja trendów na wykresie (pandas, matplotlib).
+
+Algorytm predykcji: Wykorzystanie regresji liniowej (scikit-learn) do przewidzenia ceny zamknięcia na podstawie danych z poprzednich dni.
+
+Wnioski: Wyświetlenie  komunikatu "Kupuj/Sprzedaj" na podstawie przecięcia się średnich.
