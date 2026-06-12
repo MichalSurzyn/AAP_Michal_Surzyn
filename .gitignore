@@ -2,3 +2,6 @@
 Proj_coo/
 PRACA_3PG/
 INNE/
+lab_05/output/
+.old_broken_parquet/
+venv_old_freeze.txt
