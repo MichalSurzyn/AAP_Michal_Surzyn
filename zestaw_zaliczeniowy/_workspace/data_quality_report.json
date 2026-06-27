@@ -1,0 +1,42 @@
+{
+  "dataset": "stanfordnlp/imdb",
+  "timestamp": "2026-06-23T12:51:50",
+  "n_rows": 2000,
+  "rules": {
+    "no_nulls": {
+      "passed": true,
+      "severity": "error",
+      "details": "OK"
+    },
+    "labels_in_set": {
+      "passed": true,
+      "severity": "error",
+      "details": "OK"
+    },
+    "min_word_count": {
+      "passed": true,
+      "severity": "warning",
+      "details": "OK"
+    },
+    "max_word_count": {
+      "passed": true,
+      "severity": "warning",
+      "details": "OK"
+    },
+    "no_duplicates": {
+      "passed": true,
+      "severity": "warning",
+      "details": "OK"
+    },
+    "class_balance": {
+      "passed": true,
+      "severity": "warning",
+      "details": "OK"
+    },
+    "no_html_tags": {
+      "passed": false,
+      "severity": "warning",
+      "details": "regula niespelniona"
+    }
+  }
+}
